@@ -1,0 +1,82 @@
+export function Staff() {
+  return (
+    <section className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl mb-4">Meet Our Team</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Dedicated professionals committed to transforming lives through skilled trades and recovery support.
+          </p>
+        </div>
+
+        <div className="max-w-2xl mx-auto space-y-8">
+          {/* William Dyck Profile */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="md:flex">
+              {/* Profile Image */}
+              <div className="md:w-1/3 bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center p-8">
+                <div className="w-48 h-48 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
+                  <span className="text-6xl text-white font-bold">WD</span>
+                </div>
+              </div>
+
+              {/* Profile Info */}
+              <div className="md:w-2/3 p-8">
+                <h3 className="text-3xl mb-2">William Dyck</h3>
+                <p className="text-orange-600 text-xl mb-4">Program Coordinator</p>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  William Dyck leads the Trading Up program with a passion for empowering individuals through skilled trades training and comprehensive recovery support. William is dedicated to creating pathways to success in order to transform lives.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Andrew D. Phypers Profile */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="md:flex">
+              {/* Profile Image */}
+              <div className="md:w-1/3 bg-gradient-to-br from-orange-600 to-orange-700 flex items-center justify-center p-8">
+                <div className="w-48 h-48 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
+                  <span className="text-6xl text-white font-bold">AP</span>
+                </div>
+              </div>
+
+              {/* Profile Info */}
+              <div className="md:w-2/3 p-8">
+                <h3 className="text-3xl mb-2">Andrew D. Phypers</h3>
+                <p className="text-orange-600 text-xl mb-4">Founder</p>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  Andrew Phypers is a Criminal Lawyer. After 12 years of practice he became disillusioned with the supports offered to clients and recognized the need for a program that offers both mental health and economic opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Rachel Stace-Smith Profile */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="md:flex">
+              {/* Profile Image */}
+              <div className="md:w-1/3 bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center p-8">
+                <div className="w-48 h-48 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
+                  <span className="text-6xl text-white font-bold">RS</span>
+                </div>
+              </div>
+
+              {/* Profile Info */}
+              <div className="md:w-2/3 p-8">
+                <h3 className="text-3xl mb-2">Rachel Stace-Smith</h3>
+                <p className="text-orange-600 text-xl mb-4">Reception and Mental Health Resource Coordinator</p>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  Rachel plays a vital role in supporting participants as the first point of contact and connecting them with essential mental health resources. Her compassionate approach helps create a welcoming environment for those beginning their journey with Trading Up.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
